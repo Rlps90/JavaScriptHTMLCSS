@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background: skyblue;
+    font-family: basic-sans, sans-serif;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: cornflowerblue;
+    padding: 0.75em;
+    margin: 0 0 0.5em;
+    color: #ee6352;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3rem;
+    line-height: 0.8;
+}
+
+footer {
+    background: cornflowerblue;
+    color: whitesmoke;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    padding: 1em;
+    margin-top: auto;
+}
+
+aside {
+    text-align: right;
+}
+
+img {
+    display: block;
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+
+p {
+    vertical-align: middle;
+}
